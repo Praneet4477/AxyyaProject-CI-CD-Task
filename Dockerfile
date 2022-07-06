@@ -1,4 +1,4 @@
-FROM openjdk:18.0.1.1
+FROM openjdk:17
 ARG JAR_FILE=build/target/spring-boot-docker.jar
 WORKDIR /opt/app
 COPY ${JAR_FILE} app.jar
